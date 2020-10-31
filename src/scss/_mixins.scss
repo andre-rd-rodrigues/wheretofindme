@@ -1,0 +1,126 @@
+//Colors:
+$green: rgb(99, 148, 143);
+$dark: rgb(60, 60, 60);
+$beige: rgb(242, 237, 233);
+
+@mixin card-img($http) {
+  background: url($http) no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+@mixin underline() {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 5px 0;
+  color: rgb(145, 155, 165);
+  &:hover {
+    text-decoration: none;
+    color: rgb(18, 43, 65);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    background-color: rgb(18, 43, 65);
+    transition: all 0.3s ease;
+    transform: scaleX(0);
+  }
+  &:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+}
+@mixin underlineAbout() {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 5px 0;
+  color: rgb(130, 149, 170);
+  &:hover {
+    text-decoration: none;
+    color: rgb(251, 253, 255);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    background-color: rgb(251, 253, 255);
+    transition: all 0.3s ease;
+    transform: scaleX(0);
+  }
+  &:hover:after {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+}
+
+/*=============================================
+=                   Effects                   =
+=============================================*/
+@mixin scale {
+  transition: 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+@mixin fade {
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@mixin wobble {
+  animation: wobble-hor-bottom 1.5s infinite both;
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    transform: translate(0, 90px);
+  }
+  15% {
+    transform: translate(-10px, 90px) rotate(-6deg);
+  }
+  30% {
+    transform: translate(10px, 90px) rotate(6deg);
+  }
+  45% {
+    transform: translate(-5px, 90px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translate(6px, 90px) rotate(2.4deg);
+  }
+  75% {
+    transform: translate(-2px, 90px) rotate(-1.2deg);
+  }
+}
+
+@mixin space {
+  animation: spaceman 3.5s infinite linear;
+}
+@keyframes spaceman {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*============  End of Effects  =============*/
