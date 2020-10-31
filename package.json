@@ -1,7 +1,7 @@
 {
   "name": "tourism-app",
   "version": "0.1.0",
-  "homepage": "https://andre-rd-rodrigues.github.io/where-to-find-me",
+  "homepage": "https://andre-rd-rodrigues.github.io/wheretofindme",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
