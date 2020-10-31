@@ -71,7 +71,7 @@ const Reviews = () => {
                     years.”
                     <div className="text-center mt-3">
                       <img
-                        src="/img/stars.png"
+                        src="img/stars.png"
                         alt="stars-icon"
                         style={starIcon}
                       />
@@ -100,7 +100,7 @@ const Reviews = () => {
                     the team.
                     <div className="text-center mt-3">
                       <img
-                        src="/img/stars.png"
+                        src="img/stars.png"
                         alt="stars-icon"
                         style={starIcon}
                       />
@@ -125,7 +125,7 @@ const Reviews = () => {
                     excellent communication before, during, and after my trip.”
                     <div className="text-center mt-3">
                       <img
-                        src="/img/stars.png"
+                        src="img/stars.png"
                         alt="stars-icon"
                         style={starIcon}
                       />
@@ -163,7 +163,11 @@ const Reviews = () => {
                     'react-router-dom'; d Where to Find Me for all your travel
                     needs.
                     <div className="text-center mt-3">
-                      <img src="/img/stars.png" alt="" style={starIcon} />
+                      <img
+                        src="img/stars.png"
+                        alt="stars-icon"
+                        style={starIcon}
+                      />
                     </div>
                   </Card.Text>
                 </Card.Body>
@@ -185,7 +189,11 @@ const Reviews = () => {
                     they've the best you can possibly find in the area. Awesome
                     prices regarding the experiences and activities they offer.
                     <div className="text-center mt-3">
-                      <img src="/img/stars.png" alt="" style={starIcon} />
+                      <img
+                        src="img/stars.png"
+                        alt="stars-icon"
+                        style={starIcon}
+                      />
                     </div>
                   </Card.Text>
                 </Card.Body>
@@ -208,7 +216,11 @@ const Reviews = () => {
                     service we received was professional, helpful, friendly and
                     efficient.
                     <div className="text-center mt-3">
-                      <img src="/img/stars.png" alt="" style={starIcon} />
+                      <img
+                        src="img/stars.png"
+                        alt="stars-icon"
+                        style={starIcon}
+                      />
                     </div>
                   </Card.Text>
                 </Card.Body>
