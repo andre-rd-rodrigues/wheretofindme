@@ -26,7 +26,7 @@ class AboutLink extends Component {
           img="img/aboutTitle.jpeg"
           height="400px"
           title={
-            <h1 className="handwrite_title p-4 display-2 text-center focus-in footer-col">
+            <h1 className="handwrite_title p-4 title-txt text-center focus-in footer-col">
               Welcome traveler!
             </h1>
           }

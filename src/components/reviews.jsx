@@ -25,7 +25,7 @@ const Reviews = () => {
         height="400px"
         title={
           <React.Fragment className="text-center">
-            <h1 className="handwrite_title p-4 display-2 focus-in">Reviews</h1>
+            <h1 className="handwrite_title p-4 focus-in title-txt">Reviews</h1>
             <p style={parallaxText} className="normal text-center fade">
               Our dedication to creating outstanding travel experiences has
               allowed us to build a solid costumer base, and much of our

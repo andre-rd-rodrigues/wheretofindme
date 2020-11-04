@@ -25,7 +25,7 @@ const ServicesLink = () => {
         gradient={true}
         title={
           <h1
-            className="handwrite p-4 display-2 text-white text-center focus-in"
+            className="handwrite p-4 text-white text-center focus-in title-txt"
             style={{ fontWeight: "bold" }}
           >
             ULTIMATE TRAVEL DEALS
