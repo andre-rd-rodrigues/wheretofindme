@@ -1,7 +1,6 @@
 import React from "react";
-import { Card, CardDeck, Col, Container, Row } from "react-bootstrap";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
 import Parallax from "./commons/parallax";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -13,6 +12,7 @@ const Reviews = () => {
     maxWidth: "700px",
     padding: "0px 20px",
     fontWeight: "600",
+    animationDelay: "2s",
   };
   const starIcon = {
     width: "100px",
@@ -25,27 +25,13 @@ const Reviews = () => {
         height="400px"
         title={
           <React.Fragment className="text-center">
-            <div
-              data-aos="focus-in"
-              data-aos-duration="800"
-              data-aos-easing="ease-out"
-              data-aos-delay="6000"
-            >
-              <h1 className="handwrite_title p-4 display-2">Reviews</h1>
-            </div>
-            <div
-              data-aos="fade-in"
-              data-aos-delay="1500"
-              data-aos-duration="800"
-              data-aos-easing="ease-out"
-            >
-              <p style={parallaxText} className="normal text-center">
-                Our dedication to creating outstanding travel experiences has
-                allowed us to build a solid costumer base, and much of our
-                business comes from repeated travellers. Here are just a few of
-                the positive reviews we’ve had from our loving clients.
-              </p>
-            </div>
+            <h1 className="handwrite_title p-4 display-2 focus-in">Reviews</h1>
+            <p style={parallaxText} className="normal text-center fade">
+              Our dedication to creating outstanding travel experiences has
+              allowed us to build a solid costumer base, and much of our
+              business comes from repeated travellers. Here are just a few of
+              the positive reviews we’ve had from our loving clients.
+            </p>
           </React.Fragment>
         }
       />

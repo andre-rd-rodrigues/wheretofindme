@@ -24,19 +24,12 @@ const ServicesLink = () => {
         height="400px"
         gradient={true}
         title={
-          <div
-            data-aos="focus-in"
-            data-aos-duration="800"
-            data-aos-easing="ease-out"
-            data-aos-delay="8000"
+          <h1
+            className="handwrite p-4 display-2 text-white text-center focus-in"
+            style={{ fontWeight: "bold" }}
           >
-            <h1
-              className="handwrite p-4 display-2 text-white text-center"
-              style={{ fontWeight: "bold" }}
-            >
-              ULTIMATE TRAVEL DEALS
-            </h1>
-          </div>
+            ULTIMATE TRAVEL DEALS
+          </h1>
         }
       />
       <Container>
@@ -102,7 +95,7 @@ const ServicesLink = () => {
       <Container fluid className="bg-light py-5">
         <div
           data-aos="fade-right"
-          data-aos-duration="600"
+          data-aos-duration="800"
           data-aos-easing="ease-out"
         >
           <h1 className="handwrite_title display-2 text-center mb-5">Cities</h1>

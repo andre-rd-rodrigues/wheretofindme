@@ -26,11 +26,9 @@ class AboutLink extends Component {
           img="img/aboutTitle.jpeg"
           height="400px"
           title={
-            <div data-aos="focus-in">
-              <h1 className="handwrite_title p-4 display-2 text-center">
-                Welcome traveler!
-              </h1>
-            </div>
+            <h1 className="handwrite_title p-4 display-2 text-center focus-in">
+              Welcome traveler!
+            </h1>
           }
         />
         <Container>
@@ -186,7 +184,7 @@ class AboutLink extends Component {
           height="400px"
           gradient={true}
           title={
-            <div className="text-center" data-aos="focus-in">
+            <div className="text-center" data-aos="fade">
               <h1 className="handwrite_title p-4 display-2">
                 Ready for departure?
               </h1>

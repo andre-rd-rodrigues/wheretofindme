@@ -84,7 +84,11 @@ const You = () => {
             data-aos-delay="900"
           >
             <Link to="/services" className="link-style">
-              <img src="img/homeYou4.svg" width="70px" />
+              <img
+                src="img/homeYou4.svg"
+                width="70px"
+                alt="return policy icon"
+              />
               <p className="my-3 text-center">FREE 15 DAY RETURN POLICY</p>
             </Link>
           </div>

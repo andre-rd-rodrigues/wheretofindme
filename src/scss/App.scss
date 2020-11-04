@@ -38,25 +38,13 @@ html {
 .scale {
   @include scale;
 }
-[data-aos="focus-in"] {
-  animation: focus-in 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.7s both;
-}
-@keyframes focus-in {
-  0% {
-    letter-spacing: 1em;
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    filter: blur(0);
-    opacity: 1;
-  }
-}
 
+.focus-in {
+  @include focus-in-expand;
+}
 .space-effect {
   @include space;
 }
-
 .fade {
   @include fade;
 }
@@ -67,6 +55,8 @@ html {
 .nav-item {
   font-size: 13px;
   margin-left: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
 }
 
 /*=============================================

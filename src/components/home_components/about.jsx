@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -16,7 +16,11 @@ const About = () => {
             data-aos-duration="600"
             data-aos-easing="ease-out"
           >
-            <Image src="img/homeAbout.jpeg" rounded fluid />
+            <img
+              src="img/homeAbout.jpeg"
+              alt="Traveller"
+              className="img-fluid rounded"
+            />
           </div>
         </Col>
 
