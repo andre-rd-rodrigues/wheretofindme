@@ -26,7 +26,7 @@ class AboutLink extends Component {
           img="img/aboutTitle.jpeg"
           height="400px"
           title={
-            <h1 className="handwrite_title p-4 display-2 text-center focus-in">
+            <h1 className="handwrite_title p-4 display-2 text-center focus-in footer-col">
               Welcome traveler!
             </h1>
           }
@@ -114,20 +114,24 @@ class AboutLink extends Component {
                     <img src="img/tui.png" style={partners} alt="tui-logo" />
                   </span>
                   <span>
-                    <img src="img/latam.png" style={partners} alt="tui-logo" />
+                    <img
+                      src="img/latam.png"
+                      style={partners}
+                      alt="Latam logo"
+                    />
                   </span>
                   <span>
                     <img
                       src="img/sunExpress.png"
                       style={partners}
-                      alt="tui-logo"
+                      alt="Sun express logo"
                     />
                   </span>
                   <span>
                     <img
-                      src="img/airEuropa.jpeg"
+                      src="img/airEuropa.png"
                       style={partners}
-                      alt="tui-logo"
+                      alt="Air Europa logo"
                     />
                   </span>
                 </div>
@@ -156,6 +160,7 @@ class AboutLink extends Component {
                 <div className="text-center">
                   <img
                     src="img/eco.png"
+                    className="img-fluid"
                     alt="eco certifications"
                     style={ecoLogos}
                   />
@@ -185,7 +190,7 @@ class AboutLink extends Component {
           gradient={true}
           title={
             <div className="text-center" data-aos="fade">
-              <h1 className="handwrite_title p-4 display-2">
+              <h1 className="handwrite_title p-4 display-2 aboutLink-title-txt">
                 Ready for departure?
               </h1>
               <div className="text-center mt-3">

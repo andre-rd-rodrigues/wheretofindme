@@ -38,7 +38,6 @@ html {
 .scale {
   @include scale;
 }
-
 .focus-in {
   @include focus-in-expand;
 }
@@ -249,4 +248,25 @@ sup {
   }
 }
 
+@media only screen and (max-width: 380px) {
+  .title-txt {
+    font-size: 50px;
+  }
+  .title_sub {
+    font-size: 24px;
+  }
+  .you-tm {
+    display: none;
+  }
+  .footer-col {
+    margin-right: 40px;
+  }
+  .copywrite {
+    font-size: 10px;
+  }
+  .aboutLink-title-txt {
+    font-size: 50px;
+    padding: 0;
+  }
+}
 /*============  End of Responsive  =============*/

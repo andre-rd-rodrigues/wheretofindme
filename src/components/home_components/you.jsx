@@ -17,7 +17,7 @@ const You = () => {
         >
           <h1 className="handwrite_title text-center display-3 my-5">
             You above all{" "}
-            <sup style={{ fontSize: "14px" }} className="normal">
+            <sup style={{ fontSize: "14px" }} className="normal you-tm">
               TM
             </sup>
           </h1>

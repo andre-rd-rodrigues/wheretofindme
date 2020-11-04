@@ -15,7 +15,7 @@ class NavBar extends Component {
   };
   render() {
     return (
-      <Navbar collapseOnSelect sticky="top" bg="light" expand="md">
+      <Navbar sticky="top" bg="light" expand="md">
         <Link to="/" className="navbar-brand handwrite">
           Where to Find Me
         </Link>

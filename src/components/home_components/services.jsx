@@ -106,7 +106,7 @@ const Services = () => {
             data-aos-easing="ease-out"
           >
             <img
-              src="img/homeServices.jpeg"
+              src="img/homeServices3.jpeg"
               alt="travel-img"
               className="img-fluid"
             />
