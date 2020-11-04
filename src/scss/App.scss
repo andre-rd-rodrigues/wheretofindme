@@ -1,0 +1,272 @@
+@import "mixins";
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Text:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Sacramento&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+
+//DEFAULT
+
+html {
+  width: 100vw;
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+/*=============================================
+=                   FONTS                   =
+=============================================*/
+
+.handwrite {
+  font-family: "Amatic SC", handwriting;
+  color: rgb(60, 81, 89);
+}
+.normal {
+  line-height: 30px;
+  text-align: justify;
+}
+.handwrite_title {
+  font-family: "Sacramento", handwriting;
+}
+.formal {
+  font-family: "Playfair Display", serif;
+}
+/*=============================================
+=                   Effects                   =
+=============================================*/
+.scale {
+  @include scale;
+}
+.focus-in {
+  @include focus-in-expand;
+}
+.space-effect {
+  @include space;
+}
+.fade {
+  @include fade;
+}
+/*============  End of Effects  =============*/
+/*=============================================
+=                   NAVBAR                   =
+=============================================*/
+.nav-item {
+  font-size: 13px;
+  margin-left: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+/*=============================================
+=                   HOME                   =
+=============================================*/
+
+.title-txt {
+  font-size: 90px;
+}
+.title_sub {
+  font-size: 30px;
+  transform: translateY(-10px);
+}
+#location-icon {
+  @include wobble;
+  width: 35px;
+  transform: translateY(90px);
+}
+/*=============================================
+=                   Quote                   =
+=============================================*/
+#quote-container {
+  max-width: 700px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+#quote {
+  font-weight: 300;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+/*=============================================
+=                   About                   =
+=============================================*/
+
+#about-h1 {
+  color: rgb(60, 81, 89);
+}
+#about-row {
+  margin: 120px 0px;
+}
+
+.about-link {
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+
+  @include underline;
+}
+
+/*=============================================
+=                   Services                   =
+=============================================*/
+.services-row {
+  padding: 100px 0;
+}
+.services-link {
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+
+  @include underline;
+}
+.link-style {
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+/*=============================================
+=                   You                   =
+=============================================*/
+
+#you-div {
+  margin: 100px 0px;
+}
+#you-row {
+  margin: 100px 0 50px 0;
+}
+.you-columns {
+  @include scale;
+  p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+#you-subtitle {
+  max-width: 500px;
+}
+sup {
+  font-size: 20px;
+}
+
+/*=============================================
+=                   Contact us                   =
+=============================================*/
+
+.contact-div {
+  background-color: rgb(79, 101, 111);
+  color: white;
+}
+
+/*=============================================
+=                   Footer                   =
+=============================================*/
+
+.copywrite {
+  font-size: 13px;
+}
+.footer-col {
+  @include scale;
+}
+/*=============================================
+=                   Error                   =
+=============================================*/
+#notFound-container {
+  background-color: rgb(127, 199, 180);
+
+  height: 100vh;
+}
+/*============  End of HOME  =============*/
+/*=============================================
+=                   Links                   =
+=============================================*/
+//ABOUT
+#aboutLink-row {
+  margin: 100px 0;
+}
+.about-link {
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+  width: 167px;
+  @include underlineAbout;
+}
+
+//SERVICE
+
+#serviceLink-row {
+  margin: 100px 0;
+  h3,
+  p {
+    font-weight: 600;
+  }
+}
+.servicesLink-button {
+  @include underline;
+}
+.servicesLink-cities {
+  h5 {
+    font-weight: 700;
+    margin: 35px 0;
+    span {
+      font-size: 12px;
+      transform: translateY(-10px);
+    }
+  }
+  strong {
+    margin: 10px 0;
+  }
+}
+
+//Reviews
+.reviews-row {
+  margin: 100px 0;
+}
+
+/*=============================================
+=                   Responsive                   =
+=============================================*/
+//Tablet
+@media only screen and (max-width: 768px) {
+  .responsive-top {
+    padding: 50px 0 0 0;
+  }
+  .responsive-card {
+    margin: 40px 0;
+  }
+  .service-row {
+    padding-bottom: 0;
+  }
+  .responsive-order1 {
+    order: 2;
+  }
+  .responsive-order2 {
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .title-txt {
+    font-size: 50px;
+  }
+  .title_sub {
+    font-size: 24px;
+  }
+  .you-tm {
+    display: none;
+  }
+  .footer-col {
+    margin-right: 40px;
+  }
+  .copywrite {
+    font-size: 10px;
+  }
+  .aboutLink-title-txt {
+    font-size: 50px;
+    padding: 0;
+  }
+}
+/*============  End of Responsive  =============*/
