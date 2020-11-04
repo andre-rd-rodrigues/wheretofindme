@@ -5,6 +5,11 @@ The main features that distinguish this company are personalized experiences, fr
 
 Website: https://andre-rd-rodrigues.github.io/wheretofindme
 
+# Languages
+
+- React, React-Router, React-Bootstrap
+- HTML, CSS, SASS, Bootstrap, Javascript
+- Git, Github Pages (deployment)
 
 # Web Design
 
@@ -12,8 +17,4 @@ Website: https://andre-rd-rodrigues.github.io/wheretofindme
 - Affinity Publisher
 
 
-# Languages
 
-- React, React-Router, React-Bootstrap
-- HTML, CSS, SASS, Bootstrap, Javascript
-- Git, Github Pages (deployment)
