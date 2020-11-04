@@ -17,4 +17,4 @@ Website: https://andre-rd-rodrigues.github.io/wheretofindme
 - Affinity Publisher
 
 
-*equivalent to Adobe Illustrator
+* *equivalent to Adobe Illustrator*
