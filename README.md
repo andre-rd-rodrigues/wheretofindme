@@ -13,8 +13,5 @@ Website: https://andre-rd-rodrigues.github.io/wheretofindme
 
 # Web Design
 
-- Affinity Designer*
+- Affinity Designer
 - Affinity Publisher
-
-
- * *equivalent to Adobe Illustrator*
