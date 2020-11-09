@@ -8,7 +8,7 @@ Website: https://andre-rd-rodrigues.github.io/wheretofindme
 # Languages
 
 - React, React-Router, React-Bootstrap
-- HTML, CSS, SASS, Bootstrap, Javascript
+- HTML, CSS, SASS, Bootstrap, Jquery, Javascript
 - Git, Github Pages (deployment)
 
 # Web Design
