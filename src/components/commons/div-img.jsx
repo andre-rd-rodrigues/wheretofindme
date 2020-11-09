@@ -6,10 +6,8 @@ class DivImg extends Component {
     const styles = {
       background: `url(${img}) no-repeat center ${position}`,
       backgroundSize: "cover",
-      height: "400px",
-      width: "400px",
     };
-    return <div style={styles} className="mx-auto"></div>;
+    return <div style={styles} className="mx-auto serviceLink-images"></div>;
   }
 }
 

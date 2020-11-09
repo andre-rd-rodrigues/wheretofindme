@@ -112,6 +112,7 @@ html {
 =============================================*/
 .services-row {
   padding: 100px 0;
+  overflow: hidden;
 }
 .services-link {
   font-size: 15px;
@@ -134,6 +135,7 @@ html {
 
 #you-div {
   margin: 100px 0px;
+  overflow: hidden;
 }
 #you-row {
   margin: 100px 0 50px 0;
@@ -208,6 +210,7 @@ sup {
   @include underline;
 }
 .servicesLink-cities {
+  overflow: hidden;
   h5 {
     font-weight: 700;
     margin: 35px 0;
@@ -220,7 +223,10 @@ sup {
     margin: 10px 0;
   }
 }
-
+.serviceLink-images {
+  width: 400px;
+  height: 400px;
+}
 //Reviews
 .reviews-row {
   margin: 100px 0;
@@ -248,6 +254,13 @@ sup {
   }
 }
 
+@media only screen and (max-width: 460px) {
+  .serviceLink-images {
+    width: 350px;
+    height: 350px;
+  }
+}
+
 @media only screen and (max-width: 380px) {
   .title-txt {
     font-size: 50px;
@@ -267,6 +280,10 @@ sup {
   .aboutLink-title-txt {
     font-size: 50px;
     padding: 0;
+  }
+  .serviceLink-images {
+    width: 250px;
+    height: 250px;
   }
 }
 /*============  End of Responsive  =============*/

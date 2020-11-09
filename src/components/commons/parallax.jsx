@@ -17,7 +17,7 @@ class Parallax extends Component {
     };
     return (
       <div
-        fluid
+        fluid="true"
         style={styles}
         className="d-flex flex-column align-items-center justify-content-center text-white fade"
       >

@@ -1,12 +1,11 @@
 import React from "react";
 import Parallax from "./commons/parallax";
-
-import DivImg from "./commons/div-img";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Footer from "./home_components/footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import DivImg from "./commons/div-img";
 
 AOS.init();
 
@@ -15,7 +14,7 @@ const ServicesLink = () => {
     width: "50px",
   };
   const width = {
-    width: "400px",
+    maxWidth: "400px",
   };
   return (
     <React.Fragment>
@@ -32,6 +31,9 @@ const ServicesLink = () => {
           </h1>
         }
       />
+
+      {/*   COMPANY VALUES */}
+
       <Container>
         <Row className="text-center" id="serviceLink-row">
           <Col md={3} className="scale responsive-top">
@@ -92,6 +94,9 @@ const ServicesLink = () => {
           </Col>
         </Row>
       </Container>
+
+      {/*      CITIES */}
+
       <Container fluid className="bg-light py-5">
         <div
           data-aos="fade-right"
